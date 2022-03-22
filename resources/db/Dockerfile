@@ -1,5 +1,5 @@
 # Use the capbuilder for the first stage build
-FROM stanisorre/capui5tools as capbuild
+FROM stanisorre/capui5tools:1.0.0-20220322111145_538673c as capbuild
 #Base version
 ENV VERSION 1.0.0
 # Create app directory, in which the CAP service is built
